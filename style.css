@@ -1,17 +1,19 @@
 .square {
-    height: 30px;
-    width: 30px;
+    flex: 1; 
     border-left: 2px solid black;
     border-top: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.row {
+    display: flex;
+    flex: 1;
 }
 
 #grid {
     display: flex;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    flex-direction: column;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
